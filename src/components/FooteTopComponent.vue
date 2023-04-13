@@ -73,7 +73,7 @@ export default {
     .logo{
         position: absolute;
         right: 0;
-        top: -50%;
+        top: -40%;
     }
     
 </style>

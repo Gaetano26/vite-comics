@@ -9,9 +9,9 @@
                         
                     </div>
                     
-                    <div class="col-lg-8">
-                        <ul class="d-flex h-100 align-items-center gap-4 py-3 ps-3">
-                            <li v-for="(link, index) in navbar" :key="index">
+                    <div class="col-lg-8 ps-5">
+                        <ul class="d-flex h-100 align-items-center gap-4 py-3">
+                            <li class="ps-1" v-for="(link, index) in navbar" :key="index">
                                 <a class="fw-bold" :href="link.url">{{ link.text }}</a>
                             </li>
                         </ul>

@@ -1,5 +1,5 @@
 :<template>
-     <div class="bg-footer ">
+     <div class="bg-footer">
         <div class="container py-4 ps-5 d-flex justify-content-between align-items-center">
             <div>
                 <button>Sign-up now!</button>
@@ -35,7 +35,7 @@ button{
     background-color: transparent;
     color: white;
     font-size: 12px;
-    padding: .5rem;
+    padding: 0.5rem;
     text-transform: uppercase;
 }
 h3 {
