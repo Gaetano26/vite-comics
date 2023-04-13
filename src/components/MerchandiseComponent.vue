@@ -40,5 +40,8 @@ export default {
         width: 52px;
         height: 60px;
     }
+    p {
+        text-transform: uppercase;
+    }
 
 </style>

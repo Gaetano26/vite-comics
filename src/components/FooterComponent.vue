@@ -35,7 +35,7 @@ button{
     background-color: transparent;
     color: white;
     font-size: 12px;
-    padding: 0.5rem;
+    padding:  8px 14px;
     text-transform: uppercase;
 }
 h3 {
