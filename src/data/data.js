@@ -54,84 +54,151 @@ const links = [
 const info = [
     {
         image: 'buy-comics-digital-comics.png',
-        text: 'Digital Comics',
-        
+        alt: 'buy-comics-digital-comics',
+        description: 'digital comics'
     },
     {
         image: 'buy-comics-merchandise.png',
-        text: 'Dc Merchandise',
-        
-    },
-    {
-        image: 'buy-comics-shop-locator.png',
-        text: 'Subscription',
-        
+        alt: 'buy-comics-merchandise',
+        description: 'dc merchandise'
     },
     {
         image: 'buy-comics-subscriptions.png',
-        text: 'Comic Shop Locator',
-       
+        alt: 'buy-comics-subscriptions',
+        description: 'subscription'
     },
     {
-        image: 'buy-comics-visa.svg',
-        text: 'Dc Power Visa',
-       
+        image: 'buy-comics-shop-locator.png',
+        alt: 'buy-comics-shop-locator',
+        description: 'comic shop locator'
     },
+    {
+        image: 'buy-dc-power-visa.svg',
+        alt: 'buy-dc-power-visa',
+        description: 'dc power visa'
+    }
 ];
 
-const menu = [
+const footerLinks = [
     {
-        title: 'Pastificio',
+        title: 'dc comics',
         links: [
             {
-                text: "Il Pastificio",
-                url: "#",
+                text: 'characters',
+                link: '#'
             },
             {
-                text: "Grano",
-                url: "#",
+                text: 'comics',
+                link: '#'
             },
             {
-                text: "Filiera",
-                url: "#",
+                text: 'movies',
+                link: '#'
             },
             {
-                text: "100 anni di pasta",
-                url: "#",
+                text: 'tv',
+                link: '#'
             },
             {
-                text: "Sartoria della pasta",
-                url: "#",
-            }
-
+                text: 'games',
+                link: '#'
+            },
+            {
+                text: 'videos',
+                link: '#'
+            },
+            {
+                text: 'news',
+                link: '#'
+            },
         ]
     },
     {
-        title: 'Prodotti',
+        title: 'shop',
         links: [
             {
-                text: "Le classiche",
-                url: "#",
+                text: 'Shop DC',
+                link: '#'
             },
             {
-                text: "Le Integrali",
-                url: "#",
-            },
-            {
-                text: "Le Speciali",
-                url: "#",
-            },
-            {
-                text: "Le Biologiche",
-                url: "#",
-            },
-            {
-                text: "Le Gluten-free",
-                url: "#",
+                text: 'Shop DC Collectibles',
+                link: '#'
             }
         ]
     },
-
-];
-
-export { links, info };
+    {
+        title: 'dc',
+        links: [
+            {
+                text: 'terms of use',
+                link: '#'
+            },
+            {
+                text: 'privacy poolicy (new)',
+                link: '#'
+            },
+            {
+                text: 'ad choices',
+                link: '#'
+            },
+            {
+                text: 'advertising',
+                link: '#'
+            },
+            {
+                text: 'jobs',
+                link: '#'
+            },
+            {
+                text: 'subscriptions',
+                link: '#'
+            },
+            {
+                text: 'talent workshops',
+                link: '#'
+            },
+            {
+                text: 'CPSC Certificates',
+                link: '#'
+            },
+            {
+                text: 'ratings',
+                link: '#'
+            },
+            {
+                text: 'Show help',
+                link: '#'
+            },
+            {
+                text: 'contact us',
+                link: '#'
+            },
+        ]
+    },
+    {
+        title: 'sites',
+        links: [
+            {
+                text: 'DC',
+                link: '#'
+            },
+            {
+                text: 'MAD Magazine',
+                link: '#'
+            },
+            {
+                text: 'DC Kids',
+                link: '#'
+            },
+            {
+                text: 'DC Universe',
+                link: '#'
+            },
+            {
+                text: 'DC Power Visa',
+                link: '#'
+            }
+        ]
+    },
+]
+export { links, info, footerLinks };

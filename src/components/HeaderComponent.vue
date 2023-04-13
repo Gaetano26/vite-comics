@@ -1,16 +1,16 @@
 <template>
     <header>
-        <div class="container border">
+        <div class="container">
             <div class="row">
                     <div class="col-lg-4">
-                        <div class="py-4 ps-5">
+                        <div class="py-3 ps-5">
                             <img class="img-fluid" src="../assets/styles/loghi/dc-logo.png" alt="dc-logo">
                         </div>
                         
                     </div>
                     
                     <div class="col-lg-8">
-                        <ul class="d-flex h-100 align-items-center gap-4 py-4 ps-3">
+                        <ul class="d-flex h-100 align-items-center gap-4 py-3 ps-3">
                             <li v-for="(link, index) in navbar" :key="index">
                                 <a class="fw-bold" :href="link.url">{{ link.text }}</a>
                             </li>
