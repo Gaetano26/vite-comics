@@ -9,8 +9,8 @@
                         
                     </div>
                     
-                    <div class="col-lg-8 ps-5">
-                        <ul class="d-flex h-100 align-items-center gap-4 py-3">
+                    <div class="col-lg-8 ps-5 mt-5">
+                        <ul class="d-flex h-100  align-items-center gap-4">
                             <li class="ps-1" v-for="(link, index) in navbar" :key="index">
                                 <a class="fw-bold" :href="link.url">{{ link.text }}</a>
                             </li>
@@ -48,6 +48,9 @@ export default {
     ul {
         li {
           list-style: none;  
+          border-bottom: 5px solid transparent;
+          height: 100%;
+
           a {
             text-decoration: none;
             color: black;
@@ -58,5 +61,8 @@ export default {
     }
     a:hover {
         color: blue;
+    }
+    li:hover {
+        border-bottom: 5px solid #0282f9 ;
     }
 </style>

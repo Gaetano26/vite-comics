@@ -17,6 +17,7 @@
 </template>
 
 <script>
+
  import { info } from '../data/data.js';
  import UnknownComponent from './UnknownComponent.vue';
  

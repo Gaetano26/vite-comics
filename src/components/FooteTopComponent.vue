@@ -5,23 +5,23 @@
                 <div class="col">
                     <h2>{{ fooLinks[0].title}}</h2>
                     <ul class="list-unstyled">
-                        <li v-for="link in fooLinks[0].links">{{ link.text }}</li>
+                        <li v-for="link in fooLinks[0].links"><a href="">{{ link.text }}</a></li>
                     </ul>
                     <h2>{{ fooLinks[1].title}}</h2>
                     <ul class="list-unstyled">
-                        <li  v-for="link in fooLinks[1].links">{{ link.text }}</li>
+                        <li  v-for="link in fooLinks[1].links"><a href="">{{ link.text }}</a></li>
                     </ul>
                 </div>
                 <div class="col">
                     <h2>{{ fooLinks[2].title}}</h2>
                     <ul class="list-unstyled">
-                        <li  v-for="link in fooLinks[2].links">{{ link.text }}</li>
+                        <li  v-for="link in fooLinks[2].links"><a href="">{{ link.text }}</a></li>
                     </ul>
                 </div>
                 <div class="col pr-3">
                     <h2>{{ fooLinks[3].title}}</h2>
                     <ul class="list-unstyled">
-                        <li v-for="link in fooLinks[3].links">{{ link.text }}</li>
+                        <li v-for="link in fooLinks[3].links"><a href="">{{ link.text }}</a></li>
                     </ul>
                 </div>
                 <div class="col">
@@ -62,10 +62,13 @@ export default {
         max-width: fit-content;
     }
 
-    li {
-      color: grey;
+    a {
+        text-decoration: none;
+        color: grey;
+        &hover {
+            color: blue;
+        }
     }
-
     .col{
     max-width: 200px;
     }
