@@ -2,7 +2,7 @@
    <main class="d-flex flex-column gap-0">
             <UnknownComponent />
             <div class="bg-primary">
-                <div class="container py-4 ps-5">
+                <div class="container py-4 ps-4">
                     <div class="row row-cols-12 row-cols-sm-2  row-cols-md-3 row-cols-lg-5">
                         <div class="col" v-for="(option, index) in options" :key="index">
                             <div class="d-flex align-items-center my-2">
