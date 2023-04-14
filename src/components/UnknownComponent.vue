@@ -6,7 +6,7 @@
             </div>
             <div class="container position-relative px-3">
                  <button class="bg-primary text-white curr">Current Series</button>
-                <div class="row row-cols-sm-2 row-cols-md-4 row-cols-lg-6 mt-5 mb-2 px-2">
+                <div class="row row-cols-sm-2 row-cols-md-4 row-cols-lg-6 mt-5 mb-2 px-2 gap-0">
                     <CardComponents  v-for="(serie, index) in series" :key="index" :image="serie.thumb" :title="serie.series" />
                 </div>
                 <div class="text-center mb-4">
