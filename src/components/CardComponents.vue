@@ -1,5 +1,5 @@
 :<template>
-    <div class="col mx-0">
+    <div class="col">
         <div class="card">
             <div class="card-body">
                 <div class="card-image">
@@ -26,8 +26,10 @@ export default {
 <style lang="scss" scoped>
 
 img {
-    width: 170px;
-    height: 170px;
+   min-width: 170px;
+   min-height: 180px;
+   max-width: 170px;
+   max-height: 180px;
 }
 
 .card {

@@ -2,11 +2,17 @@
    <main class="d-flex flex-column gap-0">
             <UnknownComponent />
             <div class="bg-primary">
-                <div class="container d-flex justify-content-around px-5">
-                    <div class="d-flex justify-content-center align-items-center py-4" v-for="(option, index) in options" :key="index">
-                        <img :src="'public/images/' +option.image" alt="image">
-                        <p class="pt-3 ps-3 text-white">{{ option.description }}</p>
+                <div class="container py-4 ps-5">
+                    <div class="row row-cols-12 row-cols-sm-2  row-cols-md-3 row-cols-lg-5">
+                        <div class="col" v-for="(option, index) in options" :key="index">
+                            <div class="d-flex align-items-center my-2">
+                                <img :src="'public/images/' +option.image" alt="image">
+                                <p class="pt-3 ps-3 text-white">{{ option.description }}</p>
+                            </div>
+                            
+                        </div>
                     </div>
+                   
 
                 </div>
 
