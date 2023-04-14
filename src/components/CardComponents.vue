@@ -5,8 +5,9 @@
                 <div class="card-image">
                     <img :src="image" :alt="title" class="img-fluid">
                 </div>
-                <div class="card-title text-white">
-                    {{ title }}
+                <div class="card-title mt-3 text-white">
+                    <p>{{ title }} </p>
+                    
                 </div>
             </div>
         </div>
@@ -33,6 +34,8 @@ img {
     background-color: transparent;
     border: none;
 }
- 
+p {
+    font-size: 13px;
+}
 
 </style>
