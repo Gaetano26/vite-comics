@@ -1,6 +1,6 @@
 :<template>
     <div class="col">>
-                <div class="text-center">
+                <div class=" cont-img text-center">
                     <img :src="image" :alt="title" class="img-fluid">
                 </div>
                 <div class=" mt-3 ps-4 text-white">
@@ -21,18 +21,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+ .cont-img {
+    width: 190px;
+    height: 190px;
+ } 
 img {
-   min-width: 170px;
-   min-height: 180px;
-   max-width: 170px;
-   max-height: 180px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 100% 0%;
 }
 
-.card {
-    background-color: transparent;
-    border: none;
-}
 p {
     font-size: 13px;
 }
