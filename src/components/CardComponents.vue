@@ -1,16 +1,13 @@
 :<template>
-    <div class="col">
-        <div class="card">
-            <div class="card-body">
-                <div class="card-image">
+    <div class="col">>
+                <div class="text-center">
                     <img :src="image" :alt="title" class="img-fluid">
                 </div>
-                <div class="card-title mt-3 text-white">
+                <div class=" mt-3 ps-4 text-white">
                     <p>{{ title }} </p>
                     
                 </div>
-            </div>
-        </div>
+          
 
     </div>
 </template>
